@@ -55,12 +55,13 @@ const Demo = () => {
             value={article?.url || ""}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             className="url_input peer"
+            placeholder="Enter URL"
           />
           <button
             type="submit"
             className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
           >
-            Submit
+            ↵
           </button>
         </form>
       </div>
