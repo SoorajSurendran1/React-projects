@@ -7,7 +7,7 @@ const Hero = () => {
         <img src={logo} alt="img_logo" className="w-28 object-center" />
         <button
           type="button"
-          onClick={() => window.open("")}
+          onClick={() => window.open("https://github.com/SoorajSurendran1/React-projects")}
           className="black_btn"
         >
           Github
